@@ -8,8 +8,8 @@ RUN apt update \
 RUN git clone -b manyuser https://github.com/shadowsocksr-backup/shadowsocksr
 
 ENV SSR_PORT="443" \
-    SSR_PASSWORD="2fsY81vL" \
-    SSR_METHOD="aes-256-cfb" \
+    SSR_PASSWORD="M1L3ajR3" \
+    SSR_METHOD="aes-128-cfb" \
     SSR_PROTOCOL="origin" \
     SSR_OBFS="http_simple"
 
